@@ -1,0 +1,11 @@
+﻿@model ClassTime.Web.Models.UpcomingPassedEventsViewModel
+
+@{
+    ViewBag.Title = "Classes";
+}
+
+@Html.Partial("_Events")
+
+@section scripts {
+    @Scripts.Render("~/bundles/ajax")
+}
